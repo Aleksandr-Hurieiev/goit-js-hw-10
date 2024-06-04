@@ -5,8 +5,7 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +21,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  padding-top: 100px;
+  display: flex;
+  gap: 30px;
+}
+.list-item {
+
+}
+.list-link {
+  padding: 15px 50px;
+  border: solid red 1px;
+  border-radius: 15px;
+  background-color: red;
+  font-size: 15px;
+  font-weight: 600;
 }
